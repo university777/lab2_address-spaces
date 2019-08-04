@@ -4,6 +4,10 @@ En esta tarea, aprenderemos sobre unas herramientas utiles para examinar el uso 
 Esto solo serÃ¡ una breve pista de lo que es posible; será necesario sumergirse más profundamente para convertirte verdaderamente 
 en un experto (¡Como siempre!).
 
+## Antes de empezar ##
+
+Para responder a las preguntas lea y reflexione sobre el capitulo [The Abstraction: Address Spaces]( http://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf) pues de este fue del que se sacaron las preguntas. Adicionalmente entienda y ejecute el codigo asociado a dicho capitulo el cual se encuentra en el siguiente [enlace](https://github.com/remzi-arpacidusseau/ostep-code/tree/master/vm-intro).
+
 ## Preguntas ##
 
 1. La primera herramienta que analizaremos se una herramienta muy simple, ```free```. Primero, abra una terminal de linux y 
@@ -37,8 +41,7 @@ seleccione alguno de su interés tal como un browser. Usted también puede usar 
 acerca del proceso. ¿Qué puede ver? ¿Cuantas entidades diferentes conforman un espacio de direcciones moderno, a diferencia de 
 nuestra simple concepción de code/stack/heap?
 
-8. Finalmente, ejecute ```pmap``` para su programa memory-user, con diferentes cantidades de memoria usada. ¿Qué puede ver en este caso? 
-¿La salida de ```pmap``` es siempre la que usted espera?
+8. Finalmente, ejecute ```pmap``` para su programa memory-user, con diferentes cantidades de memoria usada. ¿Qué puede ver en este caso?  ¿La salida de ```pmap``` es siempre la que usted espera?
 
 ## Referencias ##
 
@@ -46,3 +49,4 @@ nuestra simple concepción de code/stack/heap?
 2. https://www.ostechnix.com/run-command-specific-time-linux/
 3. http://u.cs.biu.ac.il/~linraz/os/OS4.pdf
 4. http://u.cs.biu.ac.il/~linraz/os/OS5.pdf
+5. 
