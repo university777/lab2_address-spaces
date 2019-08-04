@@ -49,4 +49,3 @@ nuestra simple concepción de code/stack/heap?
 2. https://www.ostechnix.com/run-command-specific-time-linux/
 3. http://u.cs.biu.ac.il/~linraz/os/OS4.pdf
 4. http://u.cs.biu.ac.il/~linraz/os/OS5.pdf
-5. 
