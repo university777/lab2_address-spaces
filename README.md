@@ -15,10 +15,12 @@ Adicionalmente, donde crea que sea necesario haga uso de los conceptos sobre pro
 1. La primera herramienta que analizaremos es una herramienta muy simple, ```free```. Primero, abra una terminal de Linux y 
 teclee ```man free```, lea su manual entero; es breve, no se preocupe! ¿Para qué sirve este comando?. **Nota**: Puede apoyarse en 
 material web para entender la herramienta mediante ejemplos.
+ >
 
 2. Ahora, ejecute ```free``` usando algunos argumentos que podrían ser útiles (por ejemplo, ```-m```, para mostrar 
 la cantidad total de memoria en megabytes). ¿Cuánta memoria hay en su sistema?, ¿Cuánta está libre? 
 ¿Son estos valores los que usted esperaba?
+  >
 
 3. A continuación, cree un pequeño programa que use cierta cantidad de memoria, llamado ```memory-user.c```. 
 Este programa debe tomar un argumento por linea de comandos: el número de megabytes de memoria que usted usará. 
