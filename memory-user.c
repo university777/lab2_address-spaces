@@ -7,7 +7,7 @@ int main(int argc, char *argv[]) {
   
 	printf("Tamaño de memoria solicitado: %d \n", atoi(argv[1]));
 	int mem= atoi(argv[1])*1e6;
-    char *p = malloc(mem);
+        char *p = malloc(mem);
  	int tiempo= atoi(argv[2]);
 	time_t seconds;
 	seconds = time(NULL);
