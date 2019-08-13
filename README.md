@@ -50,12 +50,14 @@ seleccione alguno de su interés tal como un browser. Usted también puede usar 
 7. Ahora ejecute ```pmap``` en alguno de estos procesos usando varias flags (como ```-X```) para revelar más detalles 
 acerca del proceso. ¿Qué puede ver? ¿Cuántas entidades diferentes conforman un espacio de direcciones moderno, a diferencia de 
 nuestra simple concepción de code/stack/heap?
-> Respuesta  
+> Inicialmente podemos ver que agregandole la opción -x obtenemos mayor información que sin el flag. Así tendriamos un formato extendido del ```pmap```. Dentro de la información extra que nos encontramos podemos ver el RSS, RSS: tamaño del conjunto residente en kilobytes, también el valor de Dirty Page que son las páginas "sucias" (compartidas y privadas) en kilobytes, entre otros.
+Sobre la diferencia que conocemos del code, stack y heap, podemos ver el '[anon]' para la memoria asignada, o en algunos casos el que ya conocemos como '[stack]' para la pila del programa.
+
  ![alt tag](https://github.com/university777/lab2_address-spaces/blob/master/punto7_1.png)
  ![alt tag](https://github.com/university777/lab2_address-spaces/blob/master/punto7_2.png)
 
 8. Finalmente, ejecute ```pmap``` para su programa memory-user, con diferentes cantidades de memoria usada. ¿Qué puede ver en este caso?  ¿La salida de ```pmap``` es siempre la que usted espera?
-> Respuesta  
+> Sencillamente vemos que mientras que usamos diferentes cantidades de memoria, en este caso visto en las imágenes como aumentamos en cada ejecución más memoria, podemos ver que el valor '[anon]' mencionado en el punto anterior, crece a medida que usamos más memoria en el proceso.
  ![alt tag](https://github.com/university777/lab2_address-spaces/blob/master/punto8_1.png)
  ![alt tag](https://github.com/university777/lab2_address-spaces/blob/master/punto8_2.png)
  ![alt tag](https://github.com/university777/lab2_address-spaces/blob/master/punto8_3.png)
