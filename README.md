@@ -34,7 +34,7 @@ pero en la misma máquina). ¿Cómo cambia el uso total de memoria cuando su pro
 ¿Qué pasa cuando se finaliza el programa memory-user (comando kill)?, ¿coinciden los valores con lo que usted esperaba? 
 Intente esto para diferentes cantidades de uso de memoria. ¿Qué pasa cuando usted usa cantidades de memoria realmente grandes?
  > Al correr el programa el uso total de  memoria aumenta y cuando finaliza el programa el valor vuelve a disminuir. Estos valores sí coinciden con lo esperado porque como se puede apreciar en la imagen, el uso total de memoria aumenta en 40 megabytes (1573-1533) el cual es un numéro cercano al parámetro correspondiente al número de megabytes de memoria que ingresamos al ejecutar nuestro progarma (ingresamos 50 MB)
-  ![alt tag](https://github.com/university777/lab2_address-spaces/blob/master/punto4.png)
+  ![alt tag](https://github.com/university777/lab2_address-spaces/blob/master/punto4.png)  
   Al usar cantidades muy grandes de memoria, el uso de la memoria swap aumenta.
   ![alt tag](https://github.com/university777/lab2_address-spaces/blob/master/punto4_2.png)
 
@@ -50,12 +50,12 @@ seleccione alguno de su interés tal como un browser. Usted también puede usar 
 7. Ahora ejecute ```pmap``` en alguno de estos procesos usando varias flags (como ```-X```) para revelar más detalles 
 acerca del proceso. ¿Qué puede ver? ¿Cuántas entidades diferentes conforman un espacio de direcciones moderno, a diferencia de 
 nuestra simple concepción de code/stack/heap?
-> 
+> Respuesta  
  ![alt tag](https://github.com/university777/lab2_address-spaces/blob/master/punto7_1.png)
  ![alt tag](https://github.com/university777/lab2_address-spaces/blob/master/punto7_2.png)
 
 8. Finalmente, ejecute ```pmap``` para su programa memory-user, con diferentes cantidades de memoria usada. ¿Qué puede ver en este caso?  ¿La salida de ```pmap``` es siempre la que usted espera?
-> 
+> Respuesta  
  ![alt tag](https://github.com/university777/lab2_address-spaces/blob/master/punto8_1.png)
  ![alt tag](https://github.com/university777/lab2_address-spaces/blob/master/punto8_2.png)
  ![alt tag](https://github.com/university777/lab2_address-spaces/blob/master/punto8_3.png)
