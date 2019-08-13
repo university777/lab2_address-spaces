@@ -37,7 +37,7 @@ Intente esto para diferentes cantidades de uso de memoria. ¿Qué pasa cuando us
   ![alt tag](https://github.com/university777/lab2_address-spaces/blob/master/punto4.png)
   
   Al usar cantidades muy grandes de memoria, el uso de la memoria swap aumenta.
-  (imagen punto4_2)
+  ![alt tag](https://github.com/university777/lab2_address-spaces/blob/master/punto4_2.png)
 
 5. Ahora veremos una herramienta más conocida como ```pmap```. Invierta algo de tiempo para leer el manual de ```pmap``` 
 en detalle. ¿Cuál es la diferencia de ```pmap``` con ```free```?
@@ -52,9 +52,14 @@ seleccione alguno de su interés tal como un browser. Usted también puede usar 
 acerca del proceso. ¿Qué puede ver? ¿Cuántas entidades diferentes conforman un espacio de direcciones moderno, a diferencia de 
 nuestra simple concepción de code/stack/heap?
 > Respuesta
+ ![alt tag](https://github.com/university777/lab2_address-spaces/blob/master/punto7_1.png)
+ ![alt tag](https://github.com/university777/lab2_address-spaces/blob/master/punto7_2.png)
 
 8. Finalmente, ejecute ```pmap``` para su programa memory-user, con diferentes cantidades de memoria usada. ¿Qué puede ver en este caso?  ¿La salida de ```pmap``` es siempre la que usted espera?
 > Respuesta
+ ![alt tag](https://github.com/university777/lab2_address-spaces/blob/master/punto8_1.png)
+ ![alt tag](https://github.com/university777/lab2_address-spaces/blob/master/punto8_2.png)
+ ![alt tag](https://github.com/university777/lab2_address-spaces/blob/master/punto8_3.png)
 
 ## Referencias ##
 
