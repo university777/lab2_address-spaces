@@ -20,7 +20,8 @@ material web para entender la herramienta mediante ejemplos.
 2. Ahora, ejecute ```free``` usando algunos argumentos que podrían ser útiles (por ejemplo, ```-m```, para mostrar 
 la cantidad total de memoria en megabytes). ¿Cuánta memoria hay en su sistema?, ¿Cuánta está libre? 
 ¿Son estos valores los que usted esperaba?
- > Respuesta
+ > En el sistema hay 1993 megabytes de memorio y 76 megabytes están libres.
+ ![alt tag](https://github.com/university777/lab2_address-spaces/blob/master/comando_free-m.png)
 
 3. A continuación, cree un pequeño programa que use cierta cantidad de memoria, llamado ```memory-user.c```. 
 Este programa debe tomar un argumento por linea de comandos: el número de megabytes de memoria que usted usará. 
