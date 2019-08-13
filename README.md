@@ -50,7 +50,7 @@ seleccione alguno de su interés tal como un browser. Usted también puede usar 
 7. Ahora ejecute ```pmap``` en alguno de estos procesos usando varias flags (como ```-X```) para revelar más detalles 
 acerca del proceso. ¿Qué puede ver? ¿Cuántas entidades diferentes conforman un espacio de direcciones moderno, a diferencia de 
 nuestra simple concepción de code/stack/heap?
-> Inicialmente podemos ver que agregandole la opción -x obtenemos mayor información que sin el flag. Así tendriamos un formato extendido del ```pmap```. Dentro de la información extra que nos encontramos podemos ver el RSS, RSS: tamaño del conjunto residente en kilobytes, también el valor de Dirty Page que son las páginas "sucias" (compartidas y privadas) en kilobytes, entre otros.
+> Inicialmente podemos ver que agregandole la opción -x obtenemos mayor información que sin el flag. Así tendriamos un formato extendido del ```pmap```. Dentro de la información extra que nos encontramos podemos ver el RSS, RSS: tamaño del conjunto residente en kilobytes, también el valor de Dirty Page que son las páginas "sucias" (compartidas y privadas) en kilobytes, entre otros. Por otro lado si usamos flags como -d es evidenciado el off-set de dirección de memoria que está ocupando el proceso. En el caso de agregarle -q a cualquiera de los anteriores casos tendriamos el resultado sin las columnas que nos describan el resultado.
 Sobre la diferencia que conocemos del code, stack y heap, podemos ver el '[anon]' para la memoria asignada, o en algunos casos el que ya conocemos como '[stack]' para la pila del programa.
 
  ![alt tag](https://github.com/university777/lab2_address-spaces/blob/master/punto7_1.png)
