@@ -33,7 +33,8 @@ por lo menos, por una cierta cantidad de tiempo especificada también por línea
 pero en la misma máquina). ¿Cómo cambia el uso total de memoria cuando su programa está corriendo?,
 ¿Qué pasa cuando se finaliza el programa memory-user (comando kill)?, ¿coinciden los valores con lo que usted esperaba? 
 Intente esto para diferentes cantidades de uso de memoria. ¿Qué pasa cuando usted usa cantidades de memoria realmente grandes?
- > Respuesta
+ > Al correr el programa el uso total de  memoria aumenta y cuando finaliza el programa el valor vuelve a disminuir. Estos valores sí coinciden con lo esperado porque como se puede apreciar en la imagen, el uso total de memoria aumenta en 40 megabytes (1573-1533) el cual es un numéro cercano al parámetro correspondiente al número de megabytes de memoria que ingresamos al ejecutar nuestro progarma (ingresamos 50 MB)
+  ![alt tag](https://github.com/university777/lab2_address-spaces/blob/master/punto4.png)
 
 5. Ahora veremos una herramienta más conocida como ```pmap```. Invierta algo de tiempo para leer el manual de ```pmap``` 
 en detalle. ¿Cuál es la diferencia de ```pmap``` con ```free```?
